@@ -52,3 +52,34 @@ describe '#halve' do
   end
 
 end
+
+def greet_programmer
+  puts "Hello, programmer!"
+end
+
+def greet(cory)
+  puts "Hello, #{cory}!"
+end
+
+def greet_with_default(cory = "Hello, programmer!")
+   
+    puts "Hello, #{cory}!"
+ end
+
+
+def add(num1, num2)
+  
+  return num1 + num2
+end
+
+add(2, 7)
+
+def halve(num3)
+  if num3.class != Integer
+  return nil
+  else
+   return num3 / 2
+end 
+end
+
+halve(6)
